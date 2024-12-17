@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="img/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+    <title>DetalleProducto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <header>
+    <nav class="navbar navbar-expand-md px-md-5 fixed-top bg-info-subtle " >
+     <div class="container-fluid">
+      <h1 id="logobrand">Aerovision<a href="index.html#inicio" class="logolink">logolink</a></h1>
+     <!-- Modal carrito 1 -->
+       <div class="d-md-none me-3 ms-auto" data-bs-toggle="modal" data-bs-target="#modalcarrito1">             
+         <img class="w-75 h-75 cursor-pointer" src="img/carrito.png" alt="carrito de compras" >   
+       </div>
+     <!-- Modal carrito 1 -->
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"  >
+         <span class="navbar-toggler-icon"></span>
+       </button>
+     </div>
+     <div class="collapse navbar-collapse" id="navbarNavDropdown">
+       <ul class="navbar-nav text-start pt-2 w-100 fs-5">
+         <li class="nav-item  w-100 ps-3">
+          <a href="index.html#nosotros" class="nav-link ">nosotros</a>
+        </li>
+         <li class="nav-item w-100 ps-3">
+           <a href="index.html#productos" class="nav-link">productos</a>
+         </li>
+         <li class="nav-item w-100 ps-3">
+           <a href="index.html#seccionlibre" class="nav-link">información</a>
+         </li>
+         <li class="nav-item w-100 ps-3">
+          <a href="index.html#ofertas" target="_blank"  class="nav-link">ofertas</a>
+        </li>
+         <li class="nav-item w-100 ps-3">
+           <a href="index.html#contacto" class="nav-link">contacto</a>
+         </li>
+       </ul>
+     </div>
+     <!-- Modal carrito 2 -->
+     <div class="carrito2lg d-none d-md-block p-3 pe-auto" data-bs-toggle="modal" data-bs-target="#modalcarrito2"> 
+       <img class="" src="img/carrito.png" alt="carrito de compras">                
+     </div>      
+     <!-- Modal carrito 2 -->        
+   </nav>         
+     <!-- Modal carrito 1 -->
+                 <div class="modal fade" id="modalcarrito1" tabindex="-1" aria-labelledby="carrito1h" aria-hidden="true">
+                   <div class="modal-dialog modal-dialog-centered">
+                     <div class="modal-content">
+                       <div class="modal-header bg-info-subtle">
+                         <h5 class="modal-title" id="carrito1h">Carrito de compras</h5>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                       </div>
+                       <div class="modal-body">
+                        <figure class="text-center"><img src="img/carro-vacio.png" alt="Carrito de compra vacio"></figure>
+                        <p class="text-center m-auto fs-4">Su carrito esta vacío.</p>    
+                       </div>
+                       <div class="modal-footer border-info-subtle">
+                         <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Aceptar</button>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+     <!-- Modal carrito 1 -->               
+     <!-- Modal carrito 2 -->
+         <div class="modal fade" id="modalcarrito2" tabindex="-1" aria-labelledby="carrito2h" aria-hidden="true">
+           <div class="modal-dialog modal-dialog-centered">
+             <div class="modal-content">
+               <div class="modal-header bg-info-subtle">
+                 <h5 class="modal-title" id="carrito2h">Carrito de compras</h5>
+                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+               </div>
+               <div class="modal-body">
+                <figure class="text-center"><img src="img/carro-vacio.png" alt="Carrito de compra vacio"></figure>
+                <p class="text-center m-auto fs-4">Su carrito esta vacío.</p>                 
+               </div>
+               <div class="modal-footer border-info-subtle">
+                 <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Aceptar</button>
+               </div>
+             </div>
+           </div>
+         </div> 
+     <!-- Modal carrito 2 -->
+</header>
+
+<section id="iniciodetalleproducto">
+  <h1 class="text-center mt-5 pt-5 display-2 fw-bold">AeroVision</h1>  
+  <div class="container my-5">
+    <h2 class="mb-4">Air 3</h2>
+
+    
+
+    <div class="row">
+        <div class="col-md-6">
+          <div id="carouseldetalleproducto" class="carousel slide">
+            <div class="carousel-indicators my-2">
+              <button class="active bg-secondary" type="button" data-bs-target="#carouseldetalleproducto" data-bs-slide-to="0"  aria-current="true" aria-label="Slide 1"></button>
+              <button class="bg-secondary"  type="button" data-bs-target="#carouseldetalleproducto" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button class="bg-secondary"  type="button" data-bs-target="#carouseldetalleproducto" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button class="bg-secondary"  type="button" data-bs-target="#carouseldetalleproducto" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button class="bg-secondary"  type="button" data-bs-target="#carouseldetalleproducto" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <figure class="caruseldetalle4 m-auto"><img src="#" class="d-none" alt="Drone Air 3 Fly more combo"></figure>
+              </div>
+              <div class="carousel-item">                
+                <figure class="caruseldetalle1 m-auto"><img src="#" class="d-none" alt="Drone Air 3"></figure>            
+              </div>
+              <div class="carousel-item">                
+                <figure class="caruseldetalle2 m-auto"><img src="#" class="d-none" alt="Drone Air 3 cerrado"></figure>
+              </div>
+              <div class="carousel-item">                
+                <figure class="caruseldetalle3 m-auto"><img src="#" class="d-none" alt="Drone Air 3 accesorios"></figure>
+              </div>
+              <div class="carousel-item">
+                <figure class="caruseldetalle5 m-auto"><img src="#" class="d-none" alt="Drone Air 3 vista de arriba"></figure>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouseldetalleproducto" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon bg-secondary rounded-circle" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouseldetalleproducto" data-bs-slide="next">
+              <span class="carousel-control-next-icon bg-secondary rounded-circle" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>            
+          </div>          
+        </div>
+  
+      <div class="col-md-6">
+          <h2>DJI Air 3 Fly More Combo Dji Rc 2 Color Gris Plegable.</h2>
+          <p class="h3"><span class="text-warning me-1">★</span><span class="text-warning me-1">★</span><span class="text-warning me-1">★</span><span class="text-warning me-1">★</span><span class="text-warning">★</span></p>
+          <h4 class="text-success">$2.000.000</h4>
+          <p>Con un peso de <strong>720 gr</strong> y un autonomía de vuelo de 46 minutos nuestro DJI Air 3 puede alcanzar los <em>6.000 metros</em> de altura cubrir una distancia de <em>32 kilómetros</em> de radio. Posee doble cámara integrada por una gran angular y una telecámmara con un zoom de 3x.</p>
+          <h5>Características:</h5>
+          <ul>
+              <li>Marca: DJI.</li>
+              <li>Peso: 720g.</li>
+              <li>Tiempo de vuelo: 46 mins.</li>
+              <li>Resolución de cámara: 48MP.</li>
+              <li>Control remoto: RC2.</li>
+              <li>Cantidad de motores: 4.</li>
+              <li>Resistencia al viento: 38km/h.</li>
+          </ul>
+
+          <h5 class="mt-4">Opciones de pago</h5>          
+          <ul class="list d-flex align-items-center flex-wrap">
+            <li class="list-item d-flex align-items-center me-2">
+              <input class="form-check-input me-2" type="radio" name="opcionpago" id="radio1" value="opcion1">
+              <label class="form-check-label visa" for="radio1"></label>
+            </li>
+            <li class="list-item d-flex align-items-center me-2">
+              <input class="form-check-input  me-2" type="radio" name="opcionpago" id="radio2" value="opcion2">
+              <label class="form-check-label mastercard" for="radio2"></label>
+            </li>
+            <li class="list-item d-flex align-items-center me-2">
+              <input class="form-check-input  me-2" type="radio" name="opcionpago" id="radio3" value="opcion3">
+              <label class="form-check-label paypal" for="radio3"></label>     
+            </li>
+            <li class="list-item d-flex align-items-center me-2">
+              <input class="form-check-input  me-2" type="radio" name="opcionpago" id="radio4" value="opcion4">
+            <label class="form-check-label applepay" for="radio4"></label>         
+            </li>
+            <li class="list-item d-flex align-items-center me-2">
+              <input class="form-check-input  me-2" type="radio" name="opcionpago" id="radio5" value="opcion5">
+              <label class="form-check-label americanexpress" for="radio5"></label>  
+            </li>
+          </ul>
+      
+        <div>
+          <h5 class="mt-4">Opciones de Financiación</h5>
+          <ul class="list d-flex flex-column">
+            <li class="list-group-item d-flex my-3"><input class="form-check-input me-2" type="radio" name="opcioncuota" id="radio6" value="opcion6">
+              <label class="form-check-label" for="radio6"><span>3, 6 y 9 cuotas sin interés.</span></label>
+            </li>
+            <li class="list-group-item d-flex"><input class="form-check-input me-2" type="radio" name="opcioncuota" id="radio7" value="opcion7">
+              <label class="form-check-label " for="radio7"><span>12 cuotas con interés entre 12% y 16,5%.</span></label>
+            </li>
+          </ul>
+        </div>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#modalcompra" class="btn btn-primary btn-lg mt-3">Comprar Ahora</button>
+            <div class="modal fade" id="modalcompra" tabindex="-1" aria-labelledby="modallabelcompra" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header bg-info-subtle">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div id="modallabelcompra" class="modal-body text-center fs-4">
+                    <div class="container text-center m-auto">
+                        <img src="img/tildeverde.png" alt="">
+                    <p>Su compra ha sido exitosa.</p>
+                  </div>
+                  <div class="modal-footer border-info-subtle d-flex d-sm-">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Aceptar</button>                    
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+  </div>
+</div>
+</div>
+  <div class="container">
+  <div class="row">
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <figure class="detallegaleria1 rounded-circle shadow m-auto"><img src="#" class="d-none" alt="Bolso para Drone."></figure>
+      <p class="text-center mt-3">Bolso para Drone.</p>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <figure class="detallegaleria2 rounded-circle shadow m-auto"><img src="#" class="d-none" alt="Filtros de luz para camara de Drone."></figure>
+      <p class="text-center mt-3">Filtros de luz para camara de Drone.</p>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <figure class="detallegaleria3 rounded-circle shadow m-auto"><img src="#" class="d-none" alt="Control remoto con pantalla integrada."></figure>
+      <p class="text-center mt-3">Control remoto con pantalla integrada.</p>
+    </div>
+  </div>
+</div>  
+</section>
+
+<footer class="bg-info-subtle py-4 mt-5">      
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4">
+              <h5>Datos de la Compañía:</h5>
+              <ul class="list-unstyled">
+                  <li><a href="index.html#inicio" class="text-black text-decoration-none"><strong>AeroVision</strong></a>.</li>
+                  <li>Dirección: Calle Falsa 123, Ciudad de Buenos Aires.</li>
+                  <li>Teléfono: (154) 114568-7890.</li>
+                  <li>Email: <a href="mailto:"><em>AeroVision@hotmail.com</em></a>.</li>
+              </ul>
+          </div>
+          <div class="col-md-4 d-flex flex-column align-items-center justify-content-center my-4 ">                  
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#autor">
+              <span><strong>Autor</strong></span>
+            </button>
+            <div class="modal fade" id="autor" tabindex="-1" aria-labelledby="autorLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header bg-primary">
+                    <h5 class="modal-title" id="autorLabel">Datos del Autor</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body d-flex flex-column align-items-center justify-content-center justify-content-between h-100 bg-warning">
+                    <figure class="text-center"><img src="img/FotoLucas.jpg" alt="Foto perfil alumno"></figure>
+                    <ul class="list-unstyled text-black">
+                      <li>Nombre y Apellido: Lucas Schamun.</li>
+                      <li>Email: lucasschamun@hotmail.com</li>
+                      <li>Carrera: Diseño y desarrollo web.</li>
+                      <li>Materia: Interacción con dispositivos móviles.</li>
+                      <li>Año: 2024.</li>
+                      <li>Cuatrimestre cursado: Segundo Cuatrimestre 2023.</li>
+                      <li>Red social Opcional.</li>
+                  </ul>
+                  </div>
+                  <div class="modal-footer bg-primary">
+                    <button type="button" class="btn bg-warning-subtle text-black" data-bs-dismiss="modal">Cerrar</button>                          
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+          <div class="col-md-4 d-flex flex-row align-items-center justify-content-center my-4 ">
+              <ul class="list-unstyled d-flex">
+                  <li class="facebook me-4"><a href="https://www.facebook.com/?locale=es_LA" class="linkface"></a></li>
+                  <li class="twitter me-4"><a href="https://x.com/?lang=es" class="linktwitter"></a></li>
+                  <li class="instagram"><a href="https://www.instagram.com/" class="linkinsta"></a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="border border-black mx-4 mt-5 mb-4"></div>
+      <div class="text-center">
+          <p>&copy; <time datetime="2024">2024</time> <strong>AeroVision</strong>. Todos los derechos reservados.</p>
+      </div>
+  </div>    
+</footer>         
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

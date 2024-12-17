@@ -1,0 +1,613 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;     
+}
+
+#logobrand {
+    font-size: 0%;  
+    background-image: url(../img/navbar/Logo.png);
+    background-size: contain;
+    background-position: center;
+    /* background-repeat: no-repeat;  */
+    height: 90px;
+    width: 120px;
+    margin: auto 0;
+}
+.logolink {
+    display: inline-block;
+    height: 90px;
+    width: 120px;
+}
+nav > div > ul > li:hover {
+    color: black;
+    text-decoration: underline; 
+}
+.carrito2lg {
+    cursor: pointer;
+}
+
+#inicio {
+    padding-top: 50px;
+}
+.p1inicio {
+    width: 490px;
+}
+.p2inicio {
+    width: 490px;
+}
+#nosotros {
+    padding-top: 150px;
+}
+#productos {
+    padding-top: 150px;
+}
+.cardgaleria {
+    max-width: 350px;
+    
+}
+
+#seccionlibre {
+    padding-top: 150px;
+}
+ 
+
+
+
+
+.pmodal {
+    text-align: justify;
+}  
+
+iframe {
+    height: 300px;
+}
+
+/* metodos de pago  */
+
+.visa {
+    width: 51px;  
+    height: 51px;  
+    background-image: url(../img/tarjetas/VISA.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mastercard {
+    width: 51px;  
+    height: 51px;  
+    background-image: url(../img/tarjetas/MASTERCARD.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.paypal {
+    width: 51px;  
+    height: 51px;  
+    background-image: url(../img/tarjetas/PAYPAL.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.applepay {
+    width: 51px;  
+    height: 51px;  
+    background-image: url(../img/tarjetas/applepay.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.americanexpress {
+        width: 51px;  
+        height: 51px;  
+        background-image: url(../img/tarjetas/americanexpress.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+}  
+
+.facebook {
+        width: 32px;  
+        height: 32px;  
+        background-image: url(../img/redes/facebook.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+}
+.twitter {
+    width: 32px;  
+    height: 32px;  
+    background-image: url(../img/redes/twitter.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.instagram {
+    width: 32px;  
+    height: 32px;  
+    background-image: url(../img/redes/instagram.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.linkface {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+}
+.linktwitter {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+}
+.linkinsta {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+}
+#ofertas {
+padding-top: 150px;
+padding-bottom: 50px;
+}
+ 
+@media screen and (min-width: 320px) and (max-width: 600px) {
+
+.imgcarruselinicio1 {
+    width: 300px;  
+    height: 300px;  
+    background-image: url(../img/galeria/Matrice-300RTK/M300-RTKx300.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.imgcarruselinicio2 {
+    width: 300px;  
+    height: 300px;  
+    background-image: url(../img/galeria/Matrice-30-series/matrice30x300.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.imgcarruselinicio3 {
+    width: 300px;  
+    height: 300px;  
+    background-image: url(../img/galeria/Mavic-3Multispectral/multispectralx300.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.dronefumigando {
+    width: 300px;  
+    height: 300px;  
+    background-image: url(../img/DroneAgriculturax300.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.dronefotoconstruccion {
+    width: 300px;  
+    height: 300px;  
+    background-image: url(../img/DroneIndustriax300.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+    
+.galeriafoto1 {
+    width: 300px;  
+    height: 300px;  
+    background-image: url(../img/galeria/Matrice-300RTK/M300-RTKx300.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.galeriafoto2 {
+    width: 300px;  
+    height: 300px;  
+    background-image: url(../img/galeria/Mini-3/Mini3x300.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.galeriafoto3 {
+    width: 300px;  
+    height: 300px;  
+    background-image: url(../img/galeria/Mini-4/Mini4x300.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.galeriafoto4 {
+    width: 300px;  
+    height: 300px;  
+    background-image: url(../img/galeria/Matrice-30-series/matrice30x300.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.galeriafoto5 {
+    width: 300px;  
+    height: 300px;  
+    background-image: url(../img/galeria/Mini-2/mini2x300.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.galeriafoto6 {
+    width: 300px;  
+    height: 300px;  
+    background-image: url(../img/galeria/Mavic-3Multispectral/multispectralx300.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.galeriafoto7 {
+    width: 300px;  
+    height: 300px;  
+    background-image: url(../img/galeria/Air-3/x300/Air3x300.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.galeriafoto8 {
+    width: 300px;  
+    height: 300px;  
+    background-image: url(../img/galeria/Mavic-3Pro/Mavic3Prox300.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.galeriafoto9 {
+    width: 300px;  
+    height: 300px;  
+    background-image: url(../img/galeria/Avata/Avata2x300.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.infobateria {
+    width: 100%;  
+    height: 300px;  
+    background-image: url(../img/informacion/bateriasx300.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.inforc2 {
+    width: 100%;  
+    height: 300px;  
+    background-image: url(../img/informacion/rc2x300.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.infohelices {
+    width: 100%;  
+    height: 300px;  
+    background-image: url(../img/informacion/helicesx300.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.infogimbal {
+    width: 100%;  
+    height: 300px;  
+    background-image: url(../img/informacion/gimbnlx300.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* PAGINA DETALLE DEL PRODUCTO */
+
+.caruseldetalle1  {
+    width: 300px;  
+    height: 300px;  
+    background-image: url(../img/galeria/Air-3/x300/Air3x300.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.caruseldetalle2 {
+    width: 300px;  
+    height: 300px;  
+    background-image: url(../img/galeria/Air-3/x300/Air3Cerradox300.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.caruseldetalle3 {
+    width: 300px;  
+    height: 300px;  
+    background-image: url(../img/galeria/Air-3/x300/Air3Accesoriosx300.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.caruseldetalle4 {
+    width: 300px;  
+    height: 300px;  
+    background-image: url(../img/galeria/Air-3/x300/Air3FlyMoreCombox300.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.caruseldetalle5 {
+    width: 300px;  
+    height: 300px;  
+    background-image: url(../img/galeria/Air-3/x300/Air3Arribax300.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.detallegaleria1 {
+    width: 300px;  
+    height: 300px;  
+    background-image: url(../img/galeria/Air-3/x300/Air3Bolsox300.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.detallegaleria2 {
+    width: 300px;  
+    height: 300px;  
+    background-image: url(../img/galeria/Air-3/x300/Air3Filtrosx300.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.detallegaleria3 {
+    width: 300px;  
+    height: 300px;  
+    background-image: url(../img/galeria/Air-3/x300/Air3RC2x300.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ofertasnavideñas {
+    width: 100%;  
+    height: 500px;  
+    background-image: url(../img/BannerOfertas-sm.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+} 
+}
+@media screen and (min-width: 601px) {  
+
+    .imgcarruselinicio1 {
+        width: 100%;
+        height: 800px; 
+        background-image: url(../img/galeria/Matrice-300RTK/M300RTKx600.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat; 
+    }
+    .imgcarruselinicio2 {
+        width: 100%;
+        height: 800px; 
+        background-image: url(../img/galeria/Matrice-30-series/Matrice30x600.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat; 
+    }
+    .imgcarruselinicio3 {
+        width: 100%;
+        height: 800px; 
+        background-image: url(../img/galeria/Mavic-3Multispectral/Multispectralx600.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat; 
+    }
+    .dronefumigando {
+        width: 80%;  
+        height: 360px;  
+        background-image: url(../img/DroneAgriculturax600.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; 
+    }
+    .dronefotoconstruccion {
+        width: 80%;  
+        height: 360px;  
+        background-image: url(../img/DroneIndustriax600.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; 
+    }
+
+    .galeriafoto1 {
+        width: 300px;  
+        height: 300px;  
+        background-image: url(../img/galeria/Matrice-300RTK/M300RTKx600.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; 
+    }
+
+    .galeriafoto2 {
+        width: 300px;  
+        height: 300px;  
+        background-image: url(../img/galeria/Mini-3/Mini3x600.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .galeriafoto3 {
+        width: 300px;  
+        height: 300px;  
+        background-image: url(../img/galeria/Mini-4/Mini4x600.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .galeriafoto4 {
+        width: 300px;  
+        height: 300px;  
+        background-image: url(../img/galeria/Matrice-30-series/Matrice30x600.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .galeriafoto5 {
+        width: 300px;  
+        height: 300px;  
+        background-image: url(../img/galeria/Mini-2/mini2x600.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .galeriafoto6 {
+        width: 300px;  
+        height: 300px;  
+        background-image: url(../img/galeria/Mavic-3Multispectral/multispectralx600.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .galeriafoto7 {
+        width: 300px;  
+        height: 300px;  
+        background-image: url(../img/galeria/Air-3/x600/Air3x600.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .galeriafoto8 {
+        width: 300px;  
+        height: 300px;  
+        background-image: url(../img/galeria/Mavic-3Pro/Mavic3Prox600.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .galeriafoto9 {
+        width: 300px;  
+        height: 300px;  
+        background-image: url(../img/galeria/Avata/Avata2x600.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .infobateria {
+        width: 100%;  
+        height: 300px;  
+        background-image: url(../img/informacion/bateriasx600.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .inforc2 {
+        width: 100%;  
+        height: 300px;  
+        background-image: url(../img/informacion/rc2x600.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .infohelices {
+        width: 100%;  
+        height: 300px;  
+        background-image: url(../img/informacion/helicesx600.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .infogimbal {
+        width: 100%;  
+        height: 300px;  
+        background-image: url(../img/informacion/gimbnlx600.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    
+    .ofertasnavideñas {
+        width: 100%;  
+        height: 500px;  
+        background-image: url(../img/BannerOfertas.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    } 
+
+.caruseldetalle1  {
+    width: 100%;  
+    height: 600px;  
+    background-image: url(../img/galeria/Air-3/x600/Air3x600.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.caruseldetalle2 {
+    width: 100%;  
+    height: 600px;  
+    background-image: url(../img/galeria/Air-3/x600/Air3Cerradox600.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.caruseldetalle3 {
+    width: 100%;  
+    height: 600px;  
+    background-image: url(../img/galeria/Air-3/x600/Air3Accesoriosx600.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.caruseldetalle4 {
+    width: 100%;  
+    height: 600px;  
+    background-image: url(../img/galeria/Air-3/x600/Air3FlyMoreCombox600.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.caruseldetalle5 {
+    width: 100%;  
+    height: 600px;  
+    background-image: url(../img/galeria/Air-3/x600/Air3Arribax600.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.detallegaleria1 {
+    width: 300px;  
+    height: 300px;  
+    background-image: url(../img/galeria/Air-3/x600/Air3Bolsox600.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.detallegaleria2 {
+    width: 300px;  
+    height: 300px;  
+    background-image: url(../img/galeria/Air-3/x600/Air3Filtrosx600.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.detallegaleria3 {
+    width: 300px;  
+    height: 300px;  
+    background-image: url(../img/galeria/Air-3/x600/Air3RC2x600.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+} 
+
+/* PAGINA DETALLE DEL PRODUCTO */
+
+   

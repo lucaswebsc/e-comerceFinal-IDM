@@ -1,0 +1,11 @@
+Funcionalidades:
+En esta entrega he utilizado diversos componentes de Boostrap 5:
+1- Una barra de navegación que en los breakpoints más pequeños colapsa un menu hamburguesa. Dentro de la barra de navegación coloqué un modal sobre el carrito de compras.
+2- En la sección "inicio" utilicé un carrusel de tres fotos que presenta cambios en distintos break points.
+3- En la sección "nosotros" utilicé una grilla que cambia en dos break points el "sm" y el "lg".
+4- En la scección "productos" utilicé el sistema de grillas cambiando en los breakpoints "sm", "md" y "lg" y el maquetado de los elementos dentro de la grilla lo realicé con flex-box.
+5- En la sección "libre" también hice el maquetado grande con grilla de Boostrap 5 y el maquetado interno con flex-box.
+6- En la sección "modelodedetalledeproducto" presentamos al prodcuto estrella el "Drone "Air 3" maquetado con una grilla que cambia en los breakpoints "sm", "md" y "lg". 
+7- También hemos utilizado un formulario de contacto desarrollado y diseñado con los estilos de boostrap 5 generando un cambio de posición del campo "email" cuando cruza el breakpoint "md".
+8- En la pagina de compra utilice un carusel, una galeria de imagenes y un modal de compra del producto, todo amquetado con grillas y flex-box.
+9- El footer cuenta con un modal que nos lleva a los datos del autor.
